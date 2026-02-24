@@ -10,6 +10,10 @@ A production-ready chatbot that answers questions **strictly from your uploaded 
 
 ## Preview
 
+<p align="center">
+  <img src="preview/docmind-ui.png" alt="DocMind UI" width="900"/>
+</p>
+
 The DocMind chatbot features a clean, modern interface with:
 
 - Left sidebar for document management (upload, view, and delete documents)
