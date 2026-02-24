@@ -1,0 +1,32 @@
+# Acme Corp Employee Handbook (Sample)
+
+## Leave Policies
+
+### Annual Leave
+All full-time employees are entitled to 20 days of paid annual leave per year. Leave accrues at 1.67 days per month from the date of hire. Unused leave may be carried over up to a maximum of 10 days at the end of the calendar year.
+
+### Sick Leave
+Employees receive 10 days of paid sick leave per year. Sick leave does not carry over between calendar years. For absences longer than 3 consecutive days, a medical certificate is required.
+
+### Parental Leave
+Primary caregivers are entitled to 16 weeks of fully paid parental leave. Secondary caregivers receive 4 weeks of fully paid leave. Parental leave must be taken within 12 months of the child's birth or adoption.
+
+## Remote Work Policy
+Employees may work remotely up to 3 days per week. Core hours of 10am–3pm local time must be observed for collaboration. Employees working remotely must maintain a suitable home office setup.
+
+## Benefits
+
+### Health Insurance
+The company covers 100% of employee premiums for the standard health insurance plan. Dental and vision coverage is available at a subsidized rate.
+
+### Learning & Development
+Each employee receives a $2,000 annual budget for professional development, including courses, conferences, and books. Requests must be approved by the direct manager.
+
+### Equipment
+New employees receive a laptop (choice of Mac or Windows), ergonomic chair, and monitor. Replacement cycle is every 3 years.
+
+## Code of Conduct
+All employees must treat colleagues, customers, and partners with respect. Discrimination, harassment, or bullying of any kind is strictly prohibited and may result in immediate termination.
+
+## Performance Reviews
+Formal performance reviews occur twice per year in June and December. Compensation adjustments are made annually in January based on performance and market data.

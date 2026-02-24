@@ -1,0 +1,34 @@
+# Artificial Intelligence Fundamentals
+
+## What is Artificial Intelligence?
+Artificial Intelligence (AI) refers to the simulation of human intelligence in machines programmed to think and learn. AI systems are designed to perform tasks that normally require human intelligence, such as visual perception, speech recognition, decision-making, and language translation.
+
+## Machine Learning
+Machine Learning (ML) is a subset of AI that enables systems to learn and improve from experience without being explicitly programmed. Instead of writing rules manually, ML algorithms find patterns in data and make predictions or decisions.
+
+### Types of Machine Learning
+1. **Supervised Learning**: The algorithm is trained on labeled data, learning to map inputs to outputs. Examples include image classification and spam detection.
+2. **Unsupervised Learning**: The algorithm finds patterns in unlabeled data. Examples include clustering customers into segments.
+3. **Reinforcement Learning**: The algorithm learns by interacting with an environment and receiving rewards or penalties.
+
+## Neural Networks
+Neural networks are computing systems loosely modeled on the human brain. They consist of layers of interconnected nodes (neurons) that process information. Deep learning refers to neural networks with many layers.
+
+## Large Language Models (LLMs)
+Large Language Models are AI systems trained on vast amounts of text data. They can generate human-like text, answer questions, translate languages, and write code. Examples include GPT-4, Claude, and Gemini.
+
+LLMs work by predicting the next token (word or word-piece) in a sequence based on context. They are trained using a technique called self-supervised learning on datasets containing billions of words.
+
+## Retrieval-Augmented Generation (RAG)
+RAG is an AI technique that combines information retrieval with text generation. Instead of relying solely on knowledge stored in model parameters, RAG systems:
+1. Retrieve relevant documents from a knowledge base based on the user's query
+2. Augment the prompt with retrieved context
+3. Generate a response grounded in the retrieved information
+
+RAG reduces hallucinations because the model is guided to base answers on actual documents rather than generating from parametric memory alone.
+
+## Embeddings
+Embeddings are numerical representations (vectors) of text. Similar texts have embeddings that are close together in vector space. This property enables semantic search — finding documents by meaning rather than exact keyword matching.
+
+## Vector Databases
+Vector databases store embeddings and enable fast similarity search. When a user submits a query, it is converted to an embedding and compared against stored document embeddings using metrics like cosine similarity. FAISS (Facebook AI Similarity Search) is a popular open-source library for this purpose.
