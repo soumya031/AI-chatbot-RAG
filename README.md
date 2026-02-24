@@ -1,6 +1,6 @@
 # DocMind — Domain-Specific RAG Chatbot
 
-A production-ready chatbot that answers questions **strictly from your uploaded documents** using Retrieval-Augmented Generation (RAG). No hallucinations — every answer is grounded in source content with citations.
+A chatbot that answers questions **strictly from your uploaded documents** using Retrieval-Augmented Generation (RAG). No hallucinations — every answer is grounded in source content with citations.
 
 ---
 

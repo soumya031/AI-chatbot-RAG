@@ -32,7 +32,9 @@ def test_load_text_json():
 
 def test_rag_engine_basic():
     from rag_engine import RAGEngine
-    engine = RAGEngine(index_dir="/tmp/test_rag_index")
+    import tempfile
+    with tempfile.TemporaryDirectory() as tmp_dir:
+        engine = RAGEngine(index_dir=os.path.join(tmp_dir, "test_rag_index"))
     
     # Add a document
     doc_content = b"The capital of France is Paris. The Eiffel Tower is in Paris."

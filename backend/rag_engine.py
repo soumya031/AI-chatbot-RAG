@@ -84,7 +84,7 @@ def chunk_text(text: str, chunk_size: int = CHUNK_SIZE, overlap: int = CHUNK_OVE
 class RAGEngine:
     def __init__(self, index_dir: str = "./rag_index"):
         self.index_dir = Path(index_dir)
-        self.index_dir.mkdir(exist_ok=True)
+        self.index_dir.mkdir(parents=True, exist_ok=True)
         
         logger.info(f"Loading embedding model: {EMBED_MODEL}")
         self.embedder = SentenceTransformer(EMBED_MODEL)
@@ -145,6 +145,7 @@ class RAGEngine:
             logger.info(f"Loaded index: {len(self.chunks)} chunks from {len(self.documents)} docs")
     
     def _save_index(self):
+        self.index_dir.mkdir(parents=True, exist_ok=True)
         meta_path = self.index_dir / "meta.json"
         faiss_path = self.index_dir / "index.faiss"
         with open(meta_path, "w") as f:
