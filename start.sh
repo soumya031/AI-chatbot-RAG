@@ -1,5 +1,5 @@
 #!/bin/bash
-# Quick start script
+# DocMind RAG Chatbot - Start Script
 
 echo "🔍 DocMind RAG Chatbot"
 echo "======================"
